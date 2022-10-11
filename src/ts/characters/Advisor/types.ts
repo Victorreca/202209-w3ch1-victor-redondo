@@ -1,5 +1,7 @@
+import Character from "../Character";
+
 interface AdvisorStructure {
-  adviseTo: string;
+  adviseTo: Character;
 }
 
 export default AdvisorStructure;

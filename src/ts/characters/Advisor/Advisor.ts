@@ -1,4 +1,5 @@
 import Character from "../Character";
+import Fighter from "../Fighter/Fighter";
 import AdvisorStructure from "./types";
 
 class Advisor extends Character implements AdvisorStructure {
@@ -6,7 +7,7 @@ class Advisor extends Character implements AdvisorStructure {
     name: string,
     family: string,
     age: number,
-    public adviseTo: string
+    public adviseTo: Fighter
   ) {
     super(name, family, age);
   }
