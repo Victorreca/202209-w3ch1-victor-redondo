@@ -12,7 +12,7 @@ class Advisor extends Character implements AdvisorStructure {
   }
 
   communicate() {
-    return `${super.communicate()}No sé por qué, pero creo que voy a morir protno`;
+    return `${super.communicate()}No sé por qué, pero creo que voy a morir pronto`;
   }
 }
 
