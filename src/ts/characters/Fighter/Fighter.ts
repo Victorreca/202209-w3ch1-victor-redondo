@@ -1,4 +1,4 @@
-import Character from "../Character";
+import Character from "../Character.js";
 import FighterStructure from "./types";
 
 class Fighter extends Character implements FighterStructure {

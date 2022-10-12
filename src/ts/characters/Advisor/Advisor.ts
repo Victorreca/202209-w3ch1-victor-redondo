@@ -1,4 +1,4 @@
-import Character from "../Character";
+import Character from "../Character.js";
 import Fighter from "../Fighter/Fighter";
 import AdvisorStructure from "./types";
 
