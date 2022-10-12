@@ -1,4 +1,4 @@
-import Character from "../Character";
+import Character from "../Character.js";
 import KingStructure from "./types";
 
 class King extends Character implements KingStructure {

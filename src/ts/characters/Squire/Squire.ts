@@ -1,5 +1,5 @@
-import Character from "../Character";
-import Fighter from "../Fighter/Fighter";
+import Character from "../Character.js";
+import Fighter from "../Fighter/Fighter.js";
 import SquireStructure from "./types";
 
 class Squire extends Character implements SquireStructure {

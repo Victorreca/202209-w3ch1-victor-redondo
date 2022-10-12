@@ -1,7 +1,7 @@
-import Advisor from "./characters/Advisor/Advisor";
-import Fighter from "./characters/Fighter/Fighter";
-import King from "./characters/King/King";
-import Squire from "./characters/Squire/Squire";
+import Advisor from "./characters/Advisor/Advisor.js";
+import Fighter from "./characters/Fighter/Fighter.js";
+import King from "./characters/King/King.js";
+import Squire from "./characters/Squire/Squire.js";
 
 const jaime = new Fighter("Jaime", "Lannister", 40, "sword", 9);
 
